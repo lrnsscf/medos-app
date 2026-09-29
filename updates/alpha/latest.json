@@ -1,19 +1,15 @@
 {
-  "version": "0.0.1-alpha.6",
-  "notes": "MedOS 0.0.1-alpha.6\n\nKanal: alpha. Frühe Alpha-Builds enthalten weiterhin Beispieldaten; siehe Nutzerhilfe.\n\nOS-unsignierte Alpha-Builds: darwin-aarch64, darwin-x86_64, windows-x86_64. Nach Prüfung der Herkunft und SHA-256-Prüfsumme: macOS Datenschutz & Sicherheit → Dennoch öffnen; Windows SmartScreen → Weitere Informationen → Trotzdem ausführen (sofern angeboten). Die Updater-Signaturen sind immer vorhanden.\n",
-  "pub_date": "2026-09-24T19:42:11.451Z",
+  "version": "0.0.1-alpha.7",
+  "notes": "MedOS 0.0.1-alpha.7\n\n**Testbuild vor v0.1.** MedOS arbeitet mit deinen echten Vorlesungen, Notizen und Anki-Karten und speichert sie lokal; noch sind nicht alle Funktionen abgenommen. Lege nichts nur in MedOS ab, das du nicht verlieren möchtest (Notizen lassen sich als Markdown exportieren).\n\nKanal: alpha. Siehe Nutzerhilfe.\n\nOS-unsignierte Builds: darwin-aarch64, darwin-x86_64. Nach Prüfung der Herkunft und SHA-256-Prüfsumme: macOS Datenschutz & Sicherheit → Dennoch öffnen; Windows SmartScreen → Weitere Informationen → Trotzdem ausführen (sofern angeboten). Die Updater-Signaturen sind immer vorhanden.\n",
+  "pub_date": "2026-09-29T20:24:37.661Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSG1vV3N1TVpNNG9hZm9oSjBBT2ZHY1NtNlF2ckhGWGpCTHFzbzdBV05hdld6c1NoMXpESUFDUkt4Rnc4aURRS1Rud1NYdkFyVVpYZUliZzdlTFFKaVFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjc4MDY5CWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMC4xLWFscGhhLjYKUzQwMm5MaXNsSnViakpjaS9haGVXNHh2a1F3WnVXdHNGTnNnV09VaDJ5eGlhak1jYWxUWUJmSTVSc2dMVkVSNlRmRTVkRE1YKzVQaFdOc29OemVTQ2c9PQo=",
-      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.0.1-alpha.6/darwin-aarch64-MedOS.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSGxtamRXWm5XQVk1c1JxNWhXTVJxUk1XNFE3eGVUY2p2R1JBZDg3QnRLMlBsVWRxbk1lRGU4NUdJZ21mSVMzbE82TGYrbGJGZFJia2J5UlY5OEtwRHc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzEzMzk0CWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMC4xLWFscGhhLjcKY3hCbnBlaG4xWEY2UjkyYUJ0TnVnWkZNVjhHWm50VDhtVU1YeTZsblQvaW5LWnNYTUZpS3AveGtSakxvSkRMRXozT2FYQzNTZCtZYXdyN2ZDTGdKQ3c9PQo=",
+      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.0.1-alpha.7/darwin-aarch64-MedOS.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSHYveW9lZnhLZGhRWGM1WkEyQ2hVV2tmcjZkU0t3T1NGR0ViaFZuUkxvOU4rN1dqT0xTdnd0bHlEcHVkQVUvVDZqZ2xSbXF3QkpXVWh2VWkvNmMyelFzPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjc4MDczCWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMC4xLWFscGhhLjYKemFXRWc4VU43MXd0T2dSOFA3MUYyaS9iOGViRmxTOFdqOW9lYXI2TDUwUjNBVTZHOGVCbCtYWFBsdTVRdDFscDUzVnRPUTN2S0tid0hnT1h2QzVpQ0E9PQo=",
-      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.0.1-alpha.6/darwin-x86_64-MedOS.app.tar.gz"
-    },
-    "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSHZWSk8wUTYza0N5eDU5VU9OaXl1SVZXTEJHb2l4YnlnQ0wwU3JCQVliZTBBQm56U0R3NjN0QU9LNUVZV25MWTA4dHhkQVBTSFArT285L1E3NVYvVnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwMjc4ODA3CWZpbGU6TWVkT1NfMC4wLjEtYWxwaGEuNl94NjQtc2V0dXAuZXhlCXZlcnNpb246MC4wLjEtYWxwaGEuNgplOVNidFU3TWh1cjhnTVcyNVI0bUthbDczMGJsdnRrelFiL3BZOCtCNit3TERmQnd3YjZTWEJaSjJkbVVoRm1VR0lMTTdETmRNdzk2Y2lUbVVLbUNDdz09Cg==",
-      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.0.1-alpha.6/windows-x86_64-MedOS_0.0.1-alpha.6_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSHB3ZUlqRnQ4NmtQZU9JODZiLzV4R0FiZUtQZDJFMzViMUpvZE5wdWg1emFKeFhZVGQ1Z0g0VXQ2NzdQbWF5MGpkWGR1NGRwb01qUExjbi9XdTB4bkFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzEzNDc3CWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMC4xLWFscGhhLjcKaDQyVlBZalk2UWdCREJlUXlPUHUxN0RzdkgzYi9Qa0pReTZkcmtqY2lIdlZTM2dURkJNY1pPMFhpZXJ1RVJvUDVWaVJ4OThuWWxLamVGK0o1MVZ6QWc9PQo=",
+      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.0.1-alpha.7/darwin-x86_64-MedOS.app.tar.gz"
     }
   }
 }

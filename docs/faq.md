@@ -1,12 +1,12 @@
 # Häufige Fragen
 
-## Warum sehe ich Beispieldaten?
+## Ist das schon eine fertige Version?
 
-Frühe Alpha-Versionen testen das Fundament. Die fertige Oberfläche wird schrittweise mit echten Funktionen verbunden. Lies die Release-Notizen, bevor du Daten darin verwaltest.
+Noch nicht. Versionen 0.0.x sind Testbuilds vor v0.1: Sie arbeiten mit deinen echten Daten und speichern lokal, aber nicht alles ist abgenommen. Die Release-Notizen nennen den Stand.
 
 ## Warum warnt mein Betriebssystem?
 
-Alpha-Versionen können ohne Apple- bzw. Windows-Code-Signatur erscheinen. Herkunft, Prüfsumme und die Hinweise in [Installation](installation.md) prüfen. Die Updater-Signatur ist auch für solche Versionen erforderlich.
+MedOS erscheint ohne Apple- bzw. Windows-Code-Signatur, weil die App kostenlos ist und keine bezahlten Zertifikate nutzt. Herkunft, Prüfsumme und die Hinweise in [Installation](installation.md) prüfen. Die Updater-Signatur ist auch für solche Versionen erforderlich.
 
 ## Werden Updates ohne Rückfrage installiert?
 
@@ -18,7 +18,11 @@ Sie prüft nur den Kanal der installierten Version. Netzwerkprobleme und ein noc
 
 ## Wo ist das Anki-Add-on?
 
-Es erscheint als `.ankiaddon` im jeweiligen Release, sobald die Funktion verfügbar ist. Bis dahin siehe [Anki-Hilfe](anki-addon.md).
+MedOS bringt es mit: in der Einführung oder unter Einstellungen › Anki auf „In Anki öffnen“ klicken. Zusätzlich liegt es als `.ankiaddon` im jeweiligen Release. Siehe [Anki-Hilfe](anki-addon.md).
+
+## Kann ich MedOS auf Englisch nutzen?
+
+Ja. Einstellungen › Allgemein › Oberfläche: English. MedOS lädt die Oberfläche dann neu. Die Sprache der KI-Antworten stellst du darunter getrennt ein.
 
 ## Sind Linux, Web oder Sync verfügbar?
 

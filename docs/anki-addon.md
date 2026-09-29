@@ -1,15 +1,14 @@
 # MedOS für Anki
 
-Die Anki-Anbindung wird in einem späteren Meilenstein freigeschaltet. Solange ein Release keine Datei `medos-fuer-anki.ankiaddon` enthält, ist die folgende Kopplung noch nicht verfügbar. Installiere nicht ersatzweise AnkiConnect; MedOS verwendet sein eigenes Add-on.
+MedOS liest deine Karten über ein eigenes Anki-Add-on, „MedOS für Anki“. Installiere nicht ersatzweise AnkiConnect.
 
-## Installation, sobald verfügbar
+## Installation
 
-1. Lade das Add-on aus demselben MedOS-Release herunter.
-2. Öffne Anki → Extras → Erweiterungen → Aus Datei installieren und wähle die `.ankiaddon`-Datei.
-3. Starte Anki neu und öffne das gewünschte Profil.
-4. Öffne in Anki die Oberfläche „MedOS für Anki“ und erzeuge einen einmaligen Kopplungscode.
-5. Trage diesen Code in der Anki-Kopplung von MedOS ein. Anki muss dabei geöffnet sein.
+1. Öffne Anki (Version 25.02 oder neuer) mit dem gewünschten Profil.
+2. Klicke in MedOS in der Einführung oder unter Einstellungen › Anki auf „In Anki öffnen“. Anki fragt, ob das Add-on installiert werden soll. Falls sich Anki nicht öffnet, zeigt MedOS die Datei im Finder bzw. Explorer; dann in Anki Extras › Erweiterungen › Aus Datei installieren wählen. Die Datei liegt außerdem als `medos-fuer-anki.ankiaddon` im Release.
+3. Starte Anki neu.
+4. Klicke in MedOS auf „Prüfen“. MedOS zeigt einen Code; bestätige denselben Code in Anki. Danach sind beide gekoppelt.
 
-Anki bleibt die Quelle für Karten, Stapel und Fälligkeiten. MedOS hält Verknüpfungen zu Lernunterlagen und noch nicht übertragene Entwürfe. Der Zugriff erfolgt lokal über das Add-on. Bei geschlossenem Anki stehen dessen Live-Daten nicht zur Verfügung.
+Anki bleibt die Quelle für Karten, Stapel und Fälligkeiten. MedOS hält Verknüpfungen zu Folien und noch nicht übertragene Entwürfe. Der Zugriff erfolgt lokal über das Add-on. Bei geschlossenem Anki stehen dessen Live-Daten nicht zur Verfügung; neue Karten warten dann als Entwurf.
 
-Bei Problemen prüfe zuerst das aktive Anki-Profil, die Release-Kompatibilität und den Verbindungsstatus. Teile keine Kopplungscodes oder Zugangsdaten in Fehlermeldungen.
+Bei Problemen prüfe zuerst das aktive Anki-Profil und den Verbindungsstatus unter Einstellungen › Anki. Teile keine Kopplungscodes in Fehlermeldungen.

@@ -4,15 +4,17 @@ MedOS ist eine Desktop-Lern-App für Medizinstudierende. Dieses Repository enth�
 
 ## Downloads
 
-Installationsdateien erscheinen unter [Releases](../../releases). Solange dort kein Release steht, gibt es noch keinen öffentlichen Download. Frühe Alpha-Versionen enthalten noch Beispieldaten und sind für Tests gedacht; die vollständigen Lernfunktionen werden schrittweise angeschlossen.
+Installationsdateien erscheinen unter [Releases](../../releases).
+
+> **Versionen 0.0.x sind Testbuilds vor v0.1.** MedOS arbeitet mit deinen echten Vorlesungen, Notizen und Anki-Karten und speichert sie lokal auf deinem Rechner. Noch sind nicht alle Funktionen abgenommen. Lege nichts nur in MedOS ab, das du nicht verlieren möchtest; Notizen lassen sich als Markdown exportieren.
 
 | System | Download |
 |---|---|
 | macOS 13 oder neuer, Apple Silicon | DMG mit `darwin-aarch64` im Namen |
 | macOS 13 oder neuer, Intel | DMG mit `darwin-x86_64` im Namen |
-| Windows 10/11, 64 Bit | EXE-Installer mit `windows-x86_64` im Namen |
+| Windows 10/11, 64 Bit | EXE-Installer mit `windows-x86_64` im Namen, sofern das Release einen enthält |
 
-**Unsignierte Alpha-Builds:** Gatekeeper bzw. SmartScreen kann eine Warnung anzeigen. Prüfe Herkunft und SHA-256-Prüfsumme vor dem Start. Hinweise stehen in der [Installation](docs/installation.md). Betriebssystem-Signierung und die immer erforderliche kryptografische Updater-Signatur sind unterschiedliche Prüfungen.
+**Ohne Betriebssystem-Signierung:** MedOS ist kostenlos und wird ohne bezahlte Zertifikate von Apple oder Microsoft ausgeliefert. Gatekeeper bzw. SmartScreen zeigt deshalb beim ersten Start eine Warnung. Prüfe Herkunft und SHA-256-Prüfsumme vor dem Start; wie du MedOS dann öffnest, steht in der [Installation](docs/installation.md). Die kryptografische Signatur der Updates ist davon unabhängig und immer vorhanden.
 
 ## Hilfe
 
@@ -22,4 +24,4 @@ Installationsdateien erscheinen unter [Releases](../../releases). Solange dort k
 - [Datenschutz](docs/datenschutz.md)
 - [FAQ](docs/faq.md)
 
-Kein Anki-Add-on in einem Release bedeutet: Die Anki-Anbindung ist in dieser Version noch nicht verfügbar. Verbindlich ist der Funktionsumfang in den jeweiligen Release-Notizen.
+Verbindlich ist der Funktionsumfang in den jeweiligen Release-Notizen.

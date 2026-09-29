@@ -6,11 +6,11 @@ Lade Dateien ausschließlich aus den Releases dieses Repositorys. Die Datei `SHA
 
 Wähle die DMG für Apple Silicon oder Intel, öffne sie und ziehe MedOS nach Programme. Öffne MedOS dort.
 
-Bei einem unsignierten Alpha-Build kann macOS den ersten Start blockieren. Prüfe zuerst Quelle und Prüfsumme. Falls du dem Download vertraust, nutze die gezielte Freigabe für MedOS in Systemeinstellungen → Datenschutz & Sicherheit → Dennoch öffnen. Verfügbarkeit und Wortlaut hängen von der macOS-Version ab. Deaktiviere Gatekeeper nicht global; melde abweichende Warnungen statt Schutzmechanismen pauschal abzuschalten.
+Da MedOS ohne Apple-Signatur erscheint, kann macOS den ersten Start blockieren. Prüfe zuerst Quelle und Prüfsumme. Falls du dem Download vertraust, nutze die gezielte Freigabe für MedOS in Systemeinstellungen → Datenschutz & Sicherheit → Dennoch öffnen. Verfügbarkeit und Wortlaut hängen von der macOS-Version ab. Deaktiviere Gatekeeper nicht global; melde abweichende Warnungen statt Schutzmechanismen pauschal abzuschalten.
 
 ## Windows
 
-Starte den EXE-Installer und folge seinen Schritten. Bei einem unsignierten Alpha-Build kann SmartScreen eine Warnung zeigen. Nach Prüfung von Quelle und Prüfsumme kannst du, sofern Windows diese Option anbietet, über Weitere Informationen → Trotzdem ausführen fortfahren. Unternehmensrichtlinien können dies untersagen.
+Starte den EXE-Installer und folge seinen Schritten. Da MedOS ohne Windows-Signatur erscheint, kann SmartScreen eine Warnung zeigen. Nach Prüfung von Quelle und Prüfsumme kannst du, sofern Windows diese Option anbietet, über Weitere Informationen → Trotzdem ausführen fortfahren. Unternehmensrichtlinien können dies untersagen.
 
 ## Updates
 
