@@ -6,6 +6,8 @@ MedOS ist eine Desktop-Lern-App für Medizinstudierende. Dieses Repository enth�
 
 Installationsdateien erscheinen unter [Releases](../../releases).
 
+> **Erster Start auf dem Mac:** macOS kann MedOS blockieren, weil der Build nicht von Apple beglaubigt ist. Nach Prüfung des Downloads lässt sich MedOS gezielt freigeben. [Zur Anleitung mit Bildern →](docs/installation.md#macos)
+
 > **Versionen 0.0.x sind Testbuilds vor v0.1.** MedOS arbeitet mit deinen echten Vorlesungen, Notizen und Anki-Karten und speichert sie lokal auf deinem Rechner. Noch sind nicht alle Funktionen abgenommen. Lege nichts nur in MedOS ab, das du nicht verlieren möchtest; Notizen lassen sich als Markdown exportieren.
 
 | System | Download |

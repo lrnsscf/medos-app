@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+<title id="title">MedOS beim ersten Start auf dem Mac freigeben</title>
+<desc id="desc">Schrittgrafik: Warnung mit Fertig schließen. In Systemeinstellungen, Datenschutz und Sicherheit, MedOS mit Dennoch öffnen freigeben. Danach Öffnen bestätigen.</desc>
+<rect width="960" height="640" rx="24" fill="#f5f6f7"/>
+<g font-family="system-ui, sans-serif" fill="#172027">
+<text x="40" y="52" font-size="27" font-weight="700">MedOS beim ersten Start freigeben</text>
+<text x="40" y="84" font-size="16" fill="#52616b">Schrittgrafik · Darstellung und Wortlaut können abweichen</text>
+<rect x="40" y="112" width="880" height="142" rx="16" fill="white" stroke="#c5cdd2"/>
+<circle cx="78" cy="150" r="20" fill="#172027"/><text x="78" y="156" fill="white" text-anchor="middle" font-size="19">1</text>
+<text x="116" y="151" font-size="22" font-weight="650">Startwarnung schließen</text>
+<text x="116" y="184" font-size="18">Apple kann MedOS nicht überprüfen / Entwickler nicht bestätigt</text>
+<rect x="116" y="201" width="162" height="36" rx="8" fill="#e6edf1"/><text x="197" y="225" text-anchor="middle" font-size="18">Fertig / OK</text>
+<path d="M480 261v20m-7-7 7 7 7-7" fill="none" stroke="#52616b" stroke-width="3"/>
+<rect x="40" y="289" width="880" height="142" rx="16" fill="white" stroke="#c5cdd2"/>
+<circle cx="78" cy="327" r="20" fill="#172027"/><text x="78" y="333" fill="white" text-anchor="middle" font-size="19">2</text>
+<text x="116" y="328" font-size="22" font-weight="650">Systemeinstellungen → Datenschutz &amp; Sicherheit</text>
+<text x="116" y="361" font-size="18">Nach unten zu Sicherheit · Blockierung muss MedOS nennen</text>
+<rect x="116" y="378" width="202" height="36" rx="8" fill="#e6edf1"/><text x="217" y="402" text-anchor="middle" font-size="18">Dennoch öffnen</text>
+<path d="M480 438v20m-7-7 7 7 7-7" fill="none" stroke="#52616b" stroke-width="3"/>
+<rect x="40" y="466" width="880" height="118" rx="16" fill="white" stroke="#c5cdd2"/>
+<circle cx="78" cy="504" r="20" fill="#172027"/><text x="78" y="510" fill="white" text-anchor="middle" font-size="19">3</text>
+<text x="116" y="505" font-size="22" font-weight="650">Erneute Warnung bestätigen</text>
+<rect x="116" y="529" width="162" height="36" rx="8" fill="#e6edf1"/><text x="197" y="553" text-anchor="middle" font-size="18">Öffnen</text>
+<text x="40" y="617" font-size="16" fill="#52616b">Nur nach Prüfung von Quelle und SHA-256-Prüfsumme und wenn du MedOS vertraust.</text>
+</g></svg>
