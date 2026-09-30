@@ -1,15 +1,15 @@
 {
-  "version": "0.0.1-alpha.8",
-  "notes": "MedOS 0.0.1-alpha.8\n\n**Testbuild vor v0.1.** MedOS arbeitet mit deinen echten Vorlesungen, Notizen und Anki-Karten und speichert sie lokal; noch sind nicht alle Funktionen abgenommen. Lege nichts nur in MedOS ab, das du nicht verlieren möchtest (Notizen lassen sich als Markdown exportieren).\n\nKanal: alpha. Siehe Nutzerhilfe.\n\n**Mac:** Beim ersten Start MedOS einmal erlauben: Systemeinstellungen → Datenschutz & Sicherheit → Dennoch öffnen. [Anleitung mit Bildern](https://github.com/lrnsscf/medos-app/blob/main/docs/installation.md#macos)\n\nOS-unsignierte Builds: darwin-aarch64, darwin-x86_64. Die Updater-Signaturen sind immer vorhanden.\n",
-  "pub_date": "2026-09-30T13:08:03.712Z",
+  "version": "0.0.1-alpha.9",
+  "notes": "MedOS 0.0.1-alpha.9\n\n**Testbuild vor v0.1.** MedOS arbeitet mit deinen echten Vorlesungen, Notizen und Anki-Karten und speichert sie lokal; noch sind nicht alle Funktionen abgenommen. Lege nichts nur in MedOS ab, das du nicht verlieren möchtest (Notizen lassen sich als Markdown exportieren).\n\nKanal: alpha. Siehe Nutzerhilfe.\n\n**Mac:** Beim ersten Start MedOS einmal erlauben: Systemeinstellungen → Datenschutz & Sicherheit → Dennoch öffnen. [Anleitung mit Bildern](https://github.com/lrnsscf/medos-app/blob/main/docs/installation.md#macos)\n\nOS-unsignierte Builds: darwin-aarch64, darwin-x86_64. Die Updater-Signaturen sind immer vorhanden.\n",
+  "pub_date": "2026-09-30T16:09:07.923Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSGlOZUpIcHZtWVo1T1c0eDN2OXp2N0lFLzgrYisrOGhLUDJPSjBEUmlSS0IzOFQwbXFHaUlnYW8xQzE1MU0wMHZnaDEya2pzSDUrT3B0T29oTkFnZGdBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzczNjI0CWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMC4xLWFscGhhLjgKbkJJSk9makhhZHNNa2tNWFJpc0p6enhKVXNuamI1WDF6d1lrQnlJT3JSSEN4L0h2NTN1TjU2UzM1a3piUjhjSytMeXdYUlhOTTByVEhlcU9GNHZOQUE9PQo=",
-      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.0.1-alpha.8/darwin-aarch64-MedOS.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSGlyY3dkVlBQYVlWcXZDMzNlcE5NQm91M0hCamd4MlYwUDIzSFhlNGp6Q3pJY3kyZFRvdTlYaXU5a3ZVcU5LQkh3VlN2K2lzcXBnUkVKVFhPMkczWEEwPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzg0NDgxCWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMC4xLWFscGhhLjkKeFVKMTI2ZEpjSkMwWVFZaEkwRVdXTHNzZVVIMk9XUFJBWGx2aTZNakttTFNtYVFIU29MeTA4cHJxYkFlRWRvMWUxbGN4REtnZER0OHFrM2I0WDJ5Q2c9PQo=",
+      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.0.1-alpha.9/darwin-aarch64-MedOS.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSGhRZXphVDBlU0dWeHBUNWpDWTF5eU1zbTErcXZsRFNGN1ZJZ21VanNITi96Q0xpRUEyYWszM3VtRm04aUw3R01IcDcxNkRZaUNDSnhXbzkvTFY0dmc4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzczNjgzCWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMC4xLWFscGhhLjgKZ2RtZTBreGtEa3drbnBQMisydVR3TndpQXpVdEcvREEzQWtaZGRQei9OVW5sbUxkTGhxcjZKYXErVWJzT0dtZHBrcVV4WmVpSHBEWXFlakdUTS8xQVE9PQo=",
-      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.0.1-alpha.8/darwin-x86_64-MedOS.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSHA0OHRxQ21Idm1wZ2x3ekppT09vdVozVjRFWG1WL1o5TTZubjBXb2I4MjB0eDVjQWpxTnErc0RXMnhXc1RHSEhBcnVqV2N5ZFlpU0c4TndNTFNZMVF3PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkwNzg0NTQ3CWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMC4xLWFscGhhLjkKN3N4WWtIN1RjZzdiRng5Qy90cll0T2VTaXFHRHJYM2wveDBRcjB2SGxrclZ1UTZzbWRLcGp4Z0Z2NU5DOTltS0lkNmZRK0xqMWJlVVhyQjdtRFRhQ1E9PQo=",
+      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.0.1-alpha.9/darwin-x86_64-MedOS.app.tar.gz"
     }
   }
 }
