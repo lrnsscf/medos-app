@@ -6,7 +6,7 @@ Noch nicht. Versionen 0.0.x sind Testbuilds vor v0.1: Sie arbeiten mit deinen ec
 
 ## Warum warnt mein Betriebssystem?
 
-MedOS erscheint ohne Apple- bzw. Windows-Code-Signatur, weil die App kostenlos ist und keine bezahlten Zertifikate nutzt. Herkunft, Prüfsumme und die Hinweise in [Installation](installation.md) prüfen. Die Updater-Signatur ist auch für solche Versionen erforderlich.
+MedOS ist kostenlos und wird nicht über Apple oder Microsoft verteilt. Deshalb fragt dein Rechner beim ersten Start einmal nach. Wie du MedOS erlaubst, steht in der [Installation](installation.md).
 
 ## Werden Updates ohne Rückfrage installiert?
 

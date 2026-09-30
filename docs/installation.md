@@ -1,16 +1,37 @@
 # Installation und Updates
 
-Lade Dateien ausschließlich aus den Releases dieses Repositorys. Die Datei `SHA256SUMS` enthält die Prüfsummen. Unter macOS: `shasum -a 256 DATEI`. Unter Windows PowerShell: `Get-FileHash DATEI -Algorithm SHA256`. Vergleiche die gesamte ausgegebene Prüfsumme mit dem zugehörigen Eintrag.
-
 ## macOS
 
-Wähle die DMG für Apple Silicon oder Intel, öffne sie und ziehe MedOS nach Programme. Öffne MedOS dort.
+### 1. MedOS installieren
 
-Da MedOS ohne Apple-Signatur erscheint, kann macOS den ersten Start blockieren. Prüfe zuerst Quelle und Prüfsumme. Falls du dem Download vertraust, nutze die gezielte Freigabe für MedOS in Systemeinstellungen → Datenschutz & Sicherheit → Dennoch öffnen. Verfügbarkeit und Wortlaut hängen von der macOS-Version ab. Deaktiviere Gatekeeper nicht global; melde abweichende Warnungen statt Schutzmechanismen pauschal abzuschalten.
+Lade in den [Releases](../../../releases) die DMG-Datei für deinen Mac:
+
+- **Apple Silicon (M1 oder neuer):** `darwin-aarch64`
+- **Intel:** `darwin-x86_64`
+
+Welchen Mac du hast, siehst du unter  → Über diesen Mac.
+
+Öffne die DMG und ziehe **MedOS** auf den Ordner **Applications**.
+
+![Fenster der geöffneten DMG: links der Ordner Applications, rechts MedOS.](images/macos/01-dmg.png)
+
+### 2. MedOS zum ersten Mal öffnen
+
+Öffne MedOS im Ordner Programme. Beim ersten Start meldet macOS, dass MedOS nicht überprüft werden kann. Das liegt daran, dass MedOS nicht über Apple verteilt wird. Klicke auf **Fertig**.
+
+### 3. MedOS erlauben
+
+Öffne **Systemeinstellungen → Datenschutz & Sicherheit** und scrolle nach unten zu **Sicherheit**. Dort steht jetzt ein Hinweis zu MedOS. Klicke auf **Dennoch öffnen** und bestätige mit deinem Passwort oder Touch ID.
+
+![Systemeinstellungen, Datenschutz & Sicherheit, Abschnitt Sicherheit.](images/macos/02-sicherheit.png)
+
+Fertig. Ab jetzt startet MedOS ganz normal, auch nach Updates.
+
+**Kein „Dennoch öffnen“ zu sehen?** Öffne MedOS noch einmal aus dem Ordner Programme und schau danach erneut in die Einstellungen.
 
 ## Windows
 
-Starte den EXE-Installer und folge seinen Schritten. Da MedOS ohne Windows-Signatur erscheint, kann SmartScreen eine Warnung zeigen. Nach Prüfung von Quelle und Prüfsumme kannst du, sofern Windows diese Option anbietet, über Weitere Informationen → Trotzdem ausführen fortfahren. Unternehmensrichtlinien können dies untersagen.
+Starte den Installer aus den [Releases](../../../releases). Zeigt Windows „Der Computer wurde durch Windows geschützt“, klicke auf **Weitere Informationen** und dann auf **Trotzdem ausführen**.
 
 ## Updates
 
