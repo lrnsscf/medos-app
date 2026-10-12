@@ -4,17 +4,22 @@ MedOS ist eine Desktop-Lern-App für Medizinstudierende. Dieses Repository enth�
 
 ## Downloads
 
-Installationsdateien erscheinen unter [Releases](../../releases).
+Lade die Datei für deinen Mac direkt hier herunter. Alle Versionen stehen unter [Releases](../../releases).
 
 > **Mac:** Beim ersten Start musst du MedOS einmal in den Systemeinstellungen erlauben. [So geht’s →](docs/installation.md#macos)
 
-> **Versionen 0.0.x sind Testbuilds vor v0.1.** MedOS arbeitet mit deinen echten Vorlesungen, Notizen und Anki-Karten und speichert sie lokal auf deinem Rechner. Noch sind nicht alle Funktionen abgenommen. Lege nichts nur in MedOS ab, das du nicht verlieren möchtest; Notizen lassen sich als Markdown exportieren.
+> **Beta.** MedOS arbeitet mit deinen echten Vorlesungen, Notizen und Anki-Karten, speichert sie lokal auf deinem Rechner und sichert sie täglich. Noch ist nicht alles fertig. Wenn etwas hakt oder fehlt: im Profilmenü auf **Problem melden**.
 
+<!-- downloads:start -->
 | System | Download |
 |---|---|
-| macOS 13 oder neuer, Apple Silicon | DMG mit `darwin-aarch64` im Namen |
-| macOS 13 oder neuer, Intel | DMG mit `darwin-x86_64` im Namen |
-| Windows 10/11, 64 Bit | EXE-Installer mit `windows-x86_64` im Namen, sofern das Release einen enthält |
+| Jeder Mac (Apple-Chip oder Intel), macOS 13 oder neuer | [MedOS 0.1.0-beta.1 für jeden Mac herunterladen](https://github.com/lrnsscf/medos-app/releases/download/v0.1.0-beta.1/darwin-universal-MedOS_0.1.0-beta.1_universal.dmg) |
+| Mac mit Apple-Chip (M1 oder neuer), macOS 13 oder neuer | [MedOS 0.1.0-beta.1 für Apple-Chip herunterladen](https://github.com/lrnsscf/medos-app/releases/download/v0.1.0-beta.1/darwin-aarch64-MedOS_0.1.0-beta.1_aarch64.dmg) |
+| Mac mit Intel-Chip, macOS 13 oder neuer | [MedOS 0.1.0-beta.1 für Intel herunterladen](https://github.com/lrnsscf/medos-app/releases/download/v0.1.0-beta.1/darwin-x86_64-MedOS_0.1.0-beta.1_x64.dmg) |
+| Windows 10 oder 11 | noch nicht verfügbar |
+<!-- downloads:end -->
+
+Welchen Chip dein Mac hat, steht im Apple-Menü  unter **Über diesen Mac**.
 
 ## Hilfe
 

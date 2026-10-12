@@ -13,7 +13,7 @@ Welchen Mac du hast, siehst du unter  → Über diesen Mac.
 
 Öffne die DMG und ziehe **MedOS** auf den Ordner **Applications**.
 
-![Fenster der geöffneten DMG: links der Ordner Applications, rechts MedOS.](images/macos/01-dmg.png)
+![Fenster der geöffneten DMG mit MedOS und dem Ordner Applications.](images/macos/01-dmg.png)
 
 ### 2. MedOS zum ersten Mal öffnen
 
@@ -31,10 +31,18 @@ Fertig. Ab jetzt startet MedOS ganz normal, auch nach Updates.
 
 ## Windows
 
-Starte den Installer aus den [Releases](../../../releases). Zeigt Windows „Der Computer wurde durch Windows geschützt“, klicke auf **Weitere Informationen** und dann auf **Trotzdem ausführen**.
+Für Windows gibt es noch keine Beta.
 
 ## Updates
 
-Mit aktivierter automatischer Updateprüfung sucht MedOS beim Start im Kanal der installierten Version: alpha, beta oder stable. Die Installation startet erst nach deiner Auswahl von „Installieren und neu starten“ im Update-Hinweis. Speichere vorher deine Arbeit. Manuell suchst du unter Einstellungen → Über MedOS → Nach Updates suchen.
+MedOS sucht beim Start und danach alle sechs Stunden nach einer neuen Version (abschaltbar unter Einstellungen › Über MedOS). Gibt es eine, steht unten links im Navigator ein Hinweis:
 
-Fehlende Netzwerkverbindung, ein noch nicht veröffentlichter Kanal oder eine ungültige Signatur können ein Update verhindern. Eine fehlgeschlagene Prüfung ist keine Bestätigung, dass die installierte Version aktuell ist. Lade bei Problemen den passenden Installer aus den Releases. Ein Wechsel des Kanals erfolgt durch die bewusste Installation einer Version dieses Kanals.
+1. **Was ist neu** zeigt, was die Version bringt.
+2. **Laden** lädt sie mit sichtbarem Fortschritt; du kannst dabei weiterarbeiten.
+3. **Neu starten** installiert sie. Deine Arbeit ist gespeichert.
+
+**Überspringen** blendet diese Version aus, **Später** den Hinweis bis zur nächsten Prüfung. Von Hand suchst du unter Einstellungen › Über MedOS › Nach Updates suchen.
+
+Nach dem ersten Update auf die Beta fragt macOS einmal, ob MedOS seine Einträge im Schlüsselbund (die ChatGPT-Anmeldung) weiter nutzen darf. Wähle **Immer erlauben**; danach fragt macOS bei Updates nicht mehr.
+
+Ohne Internetverbindung findet die Prüfung nichts; das heißt nicht, dass du die neueste Version hast. Lade bei Problemen die passende DMG aus den Releases. In einen stabileren Kanal wechselt MedOS mit dem Update selbst (etwa von der Alpha zur ersten Beta); zurück in einen weniger stabilen Kanal kommst du nur, indem du eine Version dieses Kanals bewusst installierst.
