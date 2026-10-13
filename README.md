@@ -13,10 +13,10 @@ Lade die Datei für deinen Mac direkt hier herunter. Alle Versionen stehen unter
 <!-- downloads:start -->
 | System | Download |
 |---|---|
-| Jeder Mac (Apple-Chip oder Intel), macOS 13 oder neuer | [MedOS 0.1.0-beta.1 für jeden Mac herunterladen](https://github.com/lrnsscf/medos-app/releases/download/v0.1.0-beta.1/darwin-universal-MedOS_0.1.0-beta.1_universal.dmg) |
-| Mac mit Apple-Chip (M1 oder neuer), macOS 13 oder neuer | [MedOS 0.1.0-beta.1 für Apple-Chip herunterladen](https://github.com/lrnsscf/medos-app/releases/download/v0.1.0-beta.1/darwin-aarch64-MedOS_0.1.0-beta.1_aarch64.dmg) |
-| Mac mit Intel-Chip, macOS 13 oder neuer | [MedOS 0.1.0-beta.1 für Intel herunterladen](https://github.com/lrnsscf/medos-app/releases/download/v0.1.0-beta.1/darwin-x86_64-MedOS_0.1.0-beta.1_x64.dmg) |
-| Windows 10 oder 11 | noch nicht verfügbar |
+| Jeder Mac (Apple-Chip oder Intel), macOS 13 oder neuer | [MedOS 0.1.1-beta.2 für jeden Mac herunterladen](https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.2/darwin-universal-MedOS_0.1.1-beta.2_universal.dmg) |
+| Mac mit Apple-Chip (M1 oder neuer), macOS 13 oder neuer | [MedOS 0.1.1-beta.2 für Apple-Chip herunterladen](https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.2/darwin-aarch64-MedOS_0.1.1-beta.2_aarch64.dmg) |
+| Mac mit Intel-Chip, macOS 13 oder neuer | [MedOS 0.1.1-beta.2 für Intel herunterladen](https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.2/darwin-x86_64-MedOS_0.1.1-beta.2_x64.dmg) |
+| Windows 10 oder 11 | [MedOS 0.1.1-beta.2 für Windows herunterladen](https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.2/windows-x86_64-MedOS_0.1.1-beta.2_x64-setup.exe) |
 <!-- downloads:end -->
 
 Welchen Chip dein Mac hat, steht im Apple-Menü  unter **Über diesen Mac**.
