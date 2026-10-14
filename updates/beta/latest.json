@@ -1,23 +1,23 @@
 {
-  "version": "0.1.1-beta.2",
-  "notes": "**Neu**\n\n- MedOS gibt es jetzt auch für Windows 10 und 11.\n- Im Chat bearbeitest du eine Frage direkt an ihrer Stelle (Stift beim Darüberfahren); die Antwort und alles danach werden neu geschrieben.\n- „Erneut versuchen“ steht an der letzten Antwort und bleibt nach einem Fehler sichtbar. Ist ChatGPT überlastet, versucht MedOS es zweimal selbst und sagt sonst genau das.\n- Lernzettel folgen der Reihenfolge der Vorlesung, mit klaren Abschnitten, Oberbegriffen und Erklärungen, die aufeinander aufbauen.\n- Karten lassen sich nach Quelle sortieren, nach Vorlesung und Folie.\n\n**Behoben**\n\n- Seitenweise blättert ein schneller Wisch genau eine Folie, auch wenn du danach kurz anhältst.\n- Wenn du das Fenster oder die Seitenleisten in der Größe änderst, bleibt die Folie an ihrem Platz.\n- Den Timer zu öffnen löste nicht mehr „Das hat nicht geklappt“ aus.",
-  "pub_date": "2026-10-13T19:38:59.649Z",
+  "version": "0.1.1-beta.3",
+  "notes": "**Neu**\n\n- Markierst du Text auf einer Folie, heißen die Aktionen jetzt „Übersetzen“, „Zusammenhang“ und „Schritt für Schritt“.\n- „Kopfzeile automatisch ausblenden“ blendet auch die Leiste über den Folien aus. Beide kommen zurück, wenn du an den oberen Rand fährst, und gehen drei Sekunden später wieder.\n- Bei Bildkarten wechselst du die Seite des Bildes direkt in der Leiste am Bild; „Bild ersetzen“ hat ein Upload-Symbol.\n\n**Behoben**\n\n- Updates lassen sich in MedOS wieder laden und installieren. Wer 0.1.0-beta.1 oder 0.1.1-beta.2 hat, installiert diese Version einmal von Hand; deine Daten bleiben erhalten.\n- Nach einer Wiederherstellung kommst du wieder zum Stand davor zurück.",
+  "pub_date": "2026-10-14T06:40:51.852Z",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSHJZcytmbS9kbXN6bnZXU0ZyM1BJZTNtUGVZRGtBbFpMMDVIRnM3TjV0N2JXZzZ0QTdjNFl5MTdJSm5iKzMzbktuVEJNM1RuS2o0RjlNQk5Iak8xbnc0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTE4ODQ1CWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4xLWJldGEuMgo0VjdJWUdwclhqbzJMRzZIaVd0ZkdRb0FJcnRlOFVQNkwySHZ6bFp5NVhUOU1WVkZiRDNqZVM3TWVkekkrS0tzR3ltZ3pveEVYb0xzK0JOOW45M3JEUT09Cg==",
-      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.2/darwin-aarch64-MedOS.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSG9SYlZYd2pxL3plc2dmSGFEUVl4Z3o0M0ZkWnNVNmYrKzNkZVZNK01JQWp0L3JwT1BIM3IySmUyTWpCZHJwNHY4d3VUN000bUMra0FsV3pkOUswY3dFPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTU4OTA4CWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4xLWJldGEuMwpQaDJMOEc5b2ZIelIzRmg0bzBQbW9teWJpY3VCZ1U2NnR3SVl0ZllYaklZZEVMT0NGZlpkc0xrTDEvZUFHZmNjMnJrVkt3aTVpa2FiWXNNTjIvYmNCdz09Cg==",
+      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.3/darwin-aarch64-MedOS.app.tar.gz"
     },
     "darwin-universal": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSHBBQmZyamR1T2l4LzhHWTVORWxvSldDdXFsMlVVRnJCSTcxVzRHcjIyb1dyV3FDVER3akRoVy9nNE4rODJKbkh6aDZPUmF2MTdFNnk5SjVBcHBIOUFBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTE4OTgzCWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4xLWJldGEuMgo0MHRESTlOOG1KdWFwbngvMEI2MWd3TnV2MVQrVDJDQTlXcWtZeU9lRlptNldKYzlLQVRQOE1HUU5QWGhzWmNrSUFqSjd1Ymt2T3Fzc2F1MmxPdG1CUT09Cg==",
-      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.2/darwin-universal-MedOS.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSGk5bnhTUEtpTUE3eWc3RktEa1V3ZER0YmhMU1ExWjhrRGNXc2Q2TVc5VGg1RmdxVWZ0YUJVU0M3M0NqTWo2K0JYREhwV0o3cmkvbHcySkIvZ09BRWdNPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTU5MDYwCWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4xLWJldGEuMwprVk92RDFkRDlBaDB6bGFyTTZrekh3RVlwWlZkZU1PbGRwSXN3NGdxY1RqaEhDYnJVNHduUjRVMWh2MTB1UXExaWFjNGRkT0dtV1Q3Tm5ab3FleDZBdz09Cg==",
+      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.3/darwin-universal-MedOS.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSGhUdmw0WWZJQ3pRUkVpdDhaamtqUDVZOWhVZFhzS3ZvWGdYTExGUDRxNy9JbU9IS0pycVBNRzR5ajNEYU1GMlZ3ckl3aGFpSUVRYkR0ZTFoc0FhV1FZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTE4OTAwCWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4xLWJldGEuMgp2STQweThzR2wrNmdCOUd2VXl3TUVVQnRmenY5OEdaek9Sd2NuWU4rUk5KS0dWNjl3cEJLSS9WOHkrSXB6ekNvc3QrdUhoMVB0bllRODRPcUpFY0lCUT09Cg==",
-      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.2/darwin-x86_64-MedOS.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSHJ1QXJaSjMwa01VUC82UmQ3eDR2NWtrOXZMZ290U3JSVXN6ajVEczh6WWk2TmFkTjRaaWNuSmJRUDVkUWRGWXluVjErVkYzNFJ6bzNZS3FrZDNmdmdJPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTU4OTc0CWZpbGU6TWVkT1MuYXBwLnRhci5negl2ZXJzaW9uOjAuMS4xLWJldGEuMwowQk5xczR2aWlqMU9MTkFGb2g0MUFLOTA0V2srUUF1QjBoRXB2aml6eURvUmlMYkVnVTRSZlErOWZQV1R5ZWZSeUUxVkpVclY1N2tzbWUwcDg5bXFEQT09Cg==",
+      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.3/darwin-x86_64-MedOS.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSG9pYVpZc1pDUjNmdVFmVjRmS09NK2dmWXAzU2JTVzV3VmxFajloaE50c25VeFdnZkdpM2dnaUFrMVBsUXBreFBkczRmVkNlcXVUbS9ieHRKb0JUZGdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTIwMjEwCWZpbGU6TWVkT1NfMC4xLjEtYmV0YS4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMS1iZXRhLjIKYmk2cjZZc3V2cysycDZNSmppMjVJMzJjS0N3VFpSaFNJMWdJWFZwZ3kyTzQ3eTIrcjZENGFhMU1vMG1kUE1uSzZlejlod09qWWhpd1ZwSU5PT1BHQnc9PQo=",
-      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.2/windows-x86_64-MedOS_0.1.1-beta.2_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVSY05pK05GcVFFSG1Ha3NrT0ltektHMlV5RVk2czkzMUx6bENUWk9RR0tYOVJKTkorLzNrcVk1d2R1MGtSZllZMit0NXV3Q291ZCtkdjZuYUNrZXl0R0tnTitQcnRLOUE0PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkxOTU5OTM5CWZpbGU6TWVkT1NfMC4xLjEtYmV0YS4zX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMS1iZXRhLjMKdEkwNE5iU2I4aXVyejNKck9ObElwTkN5QkF3VHRzb1U2dFFpMGpJaFI3a2VFL1NJN3pTV0Z5bURmOHlHQm1Ca0JqOVFqS3hQZW53VDlQd2ZTR0RwQUE9PQo=",
+      "url": "https://github.com/lrnsscf/medos-app/releases/download/v0.1.1-beta.3/windows-x86_64-MedOS_0.1.1-beta.3_x64-setup.exe"
     }
   }
 }
