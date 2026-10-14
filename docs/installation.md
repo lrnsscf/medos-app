@@ -4,10 +4,11 @@
 
 ### 1. MedOS installieren
 
-Lade in den [Releases](../../../releases) die DMG-Datei für deinen Mac:
+Lade MedOS [auf der Startseite](../README.md#medos-herunterladen) herunter. Dort stehen drei Dateien für den Mac:
 
-- **Apple Silicon (M1 oder neuer):** `darwin-aarch64`
-- **Intel:** `darwin-x86_64`
+- **Jeder Mac (Apple-Chip oder Intel):** die erste Zeile der Tabelle
+- **Nur Apple-Chip (M1 oder neuer):** die zweite Zeile, eine etwas kleinere Datei
+- **Nur Intel:** die dritte Zeile, eine etwas kleinere Datei
 
 Welchen Mac du hast, siehst du unter  → Über diesen Mac.
 
@@ -31,7 +32,17 @@ Fertig. Ab jetzt startet MedOS ganz normal, auch nach Updates.
 
 ## Windows
 
-Für Windows gibt es noch keine Beta.
+### 1. MedOS installieren
+
+Lade MedOS für Windows [auf der Startseite](../README.md#medos-herunterladen) herunter (Windows 10 oder 11) und öffne die heruntergeladene Datei.
+
+### 2. Windows-Warnung bestätigen
+
+MedOS ist nicht bei Microsoft signiert. Deshalb meldet Windows beim ersten Öffnen „Der Computer wurde durch Windows geschützt“. Klicke auf **Weitere Informationen** und dann auf **Trotzdem ausführen**.
+
+### 3. Installieren und starten
+
+Folge dem Installationsprogramm und starte MedOS danach über das Startmenü. Updates kommen ab jetzt über MedOS selbst.
 
 ## Updates
 
@@ -45,4 +56,6 @@ MedOS sucht beim Start und danach alle sechs Stunden nach einer neuen Version (a
 
 Nach dem ersten Update auf die Beta fragt macOS einmal, ob MedOS seine Einträge im Schlüsselbund (die ChatGPT-Anmeldung) weiter nutzen darf. Wähle **Immer erlauben**; danach fragt macOS bei Updates nicht mehr.
 
-Ohne Internetverbindung findet die Prüfung nichts; das heißt nicht, dass du die neueste Version hast. Lade bei Problemen die passende DMG aus den Releases. In einen stabileren Kanal wechselt MedOS mit dem Update selbst (etwa von der Alpha zur ersten Beta); zurück in einen weniger stabilen Kanal kommst du nur, indem du eine Version dieses Kanals bewusst installierst.
+Ohne Internetverbindung findet die Prüfung nichts; das heißt nicht, dass du die neueste Version hast. Lade bei Problemen die neueste Version von der Startseite und installiere sie über die alte.
+
+**Von 0.1.0-beta.1 oder 0.1.1-beta.2:** Diese beiden Versionen können sich nicht selbst aktualisieren. Installiere 0.1.1-beta.3 oder neuer einmal von Hand über die bisherige Version; deine Daten bleiben erhalten. Danach kommen Updates wieder über MedOS. In einen stabileren Kanal wechselt MedOS mit dem Update selbst (etwa von der Alpha zur ersten Beta); zurück in einen weniger stabilen Kanal kommst du nur, indem du eine Version dieses Kanals bewusst installierst.

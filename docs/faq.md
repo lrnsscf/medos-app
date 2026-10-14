@@ -2,7 +2,7 @@
 
 ## Ist das schon eine fertige Version?
 
-Noch nicht, MedOS ist in der Beta. Es arbeitet mit deinen echten Daten, speichert sie lokal und sichert sie täglich, ist aber noch nicht in allem fertig. Was eine Version bringt, zeigt MedOS einmal nach dem Update; danach steht es unter Einstellungen › Über MedOS › Was ist neu und in den Release-Notizen.
+Noch nicht, MedOS ist in der Beta. Es arbeitet mit deinen echten Daten, speichert sie lokal und sichert sie täglich, ist aber noch nicht in allem fertig. Was eine Version bringt, zeigt MedOS einmal nach dem Update; danach steht es unter Einstellungen › Über MedOS › Was ist neu.
 
 ## Wie melde ich ein Problem oder einen Wunsch?
 
@@ -38,4 +38,4 @@ Ja. Einstellungen › Allgemein › Oberfläche: English. MedOS lädt die Oberfl
 
 ## Sind Windows, Linux, Web oder Sync verfügbar?
 
-Die Beta gibt es für macOS. Windows folgt später; Linux, eine Web-Version und geräteübergreifender Sync sind nicht geplant.
+Die Beta gibt es für macOS (13 oder neuer) und Windows (10 oder 11). Linux, eine Web-Version und geräteübergreifender Sync sind nicht geplant.
